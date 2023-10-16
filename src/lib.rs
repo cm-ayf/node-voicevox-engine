@@ -1,8 +1,7 @@
 #![deny(clippy::all)]
-
-use napi_derive::napi;
-
-#[napi]
-pub fn plus_100(input: u32) -> u32 {
-  input + 100
-}
+mod opaque;
+mod open_jtalk;
+mod synthesizer;
+mod user_dict;
+mod util;
+mod voice_model;
