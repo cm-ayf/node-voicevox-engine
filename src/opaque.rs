@@ -1,4 +1,3 @@
-#[macro_export]
 macro_rules! opaque {
   ($id:ident) => {
     opaque!($id, voicevox_core::$id);
@@ -27,3 +26,5 @@ macro_rules! opaque {
     }
   };
 }
+
+pub(crate) use opaque;
