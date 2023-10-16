@@ -1,3 +1,3 @@
-# `@napi-rs/package-template-linux-arm64-gnu`
+# `@discordjs-japan/node-voicevox-engine-linux-arm64-gnu`
 
-This is the **aarch64-unknown-linux-gnu** binary for `@napi-rs/package-template`
+This is the **aarch64-unknown-linux-gnu** binary for `@discordjs-japan/node-voicevox-engine`

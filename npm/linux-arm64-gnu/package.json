@@ -1,5 +1,5 @@
 {
-  "name": "@napi-rs/package-template-linux-arm64-gnu",
+  "name": "@discordjs-japan/node-voicevox-engine-linux-arm64-gnu",
   "version": "1.0.0",
   "os": [
     "linux"

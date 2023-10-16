@@ -1,9 +1,9 @@
 {
-  "name": "@napi-rs/package-template",
-  "version": "1.0.0",
-  "description": "Template project for writing node package with napi-rs",
+  "name": "@discordjs-japan/node-voicevox-engine",
+  "version": "0.0.1",
+  "description": "VOIECVOX Engine API for Node.js",
   "main": "index.js",
-  "repository": "git@github.com:napi-rs/package-template.git",
+  "repository": "git@github.com:discordjs-japan/node-voicevox-engine.git",
   "license": "MIT",
   "keywords": [
     "napi-rs",
@@ -18,7 +18,7 @@
     "index.js"
   ],
   "napi": {
-    "name": "package-template",
+    "name": "@discordjs-japan/node-voicevox-engine",
     "triples": {
       "defaults": true,
       "additional": [
@@ -37,10 +37,6 @@
   },
   "engines": {
     "node": ">= 10"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
   },
   "scripts": {
     "artifacts": "napi artifacts",
